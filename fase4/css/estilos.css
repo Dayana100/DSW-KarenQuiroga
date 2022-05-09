@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(168, 128, 166);
+    color: aliceblue;
+    color: bisque;
+    text-align: center;
+}
+nav{
+    background-color: rgb(184, 96, 162);
+    color: black;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: rgb(173, 154, 154);
+    grid-column:1/4 ;
+}
+.centrado{
+    text-align: center;
+}
+aside{
+    background-color: rgb(185, 130, 192);
+    padding: 30px
+ 
+    
+}
+footer{
+    background-color: rgb(234, 182, 255);
+    color: rgb(5, 5, 5);
+    text-align: center;
+}       
+
+.menu {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
